@@ -131,6 +131,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin-top: 80px;
+    padding-bottom: 100px;
 }
 .react{
     color: #00FF88;
@@ -142,6 +143,70 @@ hr{
     color: #FFFFFF;
     font-weight: 500;
     font-size: 1rem;
+}
+/* why choose techwave related style */
+.choose-techwave{
+    max-width: 1600px;
+    background-color: #230E3D;
+}
+.product-title{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+   padding-top: 100px;
+   padding-bottom: 40px;
+
+}
+
+.product-container{
+    width: 1200px;
+    /* border: 2px solid papayawhip; */
+    margin: 0 auto;
+    /* padding-top: 120px; */
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,200px);
+}
+.headphone{
+    grid-column: span 1;
+    grid-row: span 2;
+    border: 3px solid #351165;
+    padding: 107px 40px;
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.desciption{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(111, 108, 108);
+}
+.mobile{
+     grid-column: span 2;
+    grid-row: span 1;
+    /* border: 3px solid pink; */
+    padding: 40px 50px;
+    border: 3px solid #351165;
+     border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.resource{
+     grid-column: span 1;
+    grid-row: span 1;
+    padding: 40px ;
+    border: 3px solid #351165;
+     border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* for mobile device */
@@ -164,4 +229,26 @@ hr{
         height: 250px;
         padding-top: 80px;
     }
+    .about-title{
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+.about-description{
+    font-size: 1rem;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+   
+}
+.state{
+    
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.react{
+    margin-bottom: 10px;
+}
+    
 }
