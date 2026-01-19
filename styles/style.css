@@ -250,5 +250,22 @@ hr{
 .react{
     margin-bottom: 10px;
 }
+.product-container{
+    
+   
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,50px);
+    padding: 5px;
+    width: 100%;
+   
+}
+.desciption{
+     width: 200px;
+}
+.product-title{
+    font-size: 2rem;
+    font-weight: 600;
+    }
+
     
 }
