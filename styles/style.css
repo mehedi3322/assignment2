@@ -1,3 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* share style */
+.display-flex{
+    display: flex;
+}
+/* header related style */
+.navbar{
+    max-width: 1600px;
+    background-color: #1A0B2E;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 24px;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    margin-left: 16px;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
 h1{
-    background-color: aquamarine;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 2rem;
+}
+#primary-color{
+   /* background: linear-gradient(135deg, #ffeb3b, #ff2fb3, #7b1fff); */
+   color: rgb(255, 43, 191);
+}
+.nav-btn{
+    width: 135px;
+    height: 44px;
+     background: linear-gradient(135deg, #ffeb3b, #ff2fb3, #7b1fff);
+     color: #FFFFFF;
+     border-radius: 24px;
+     border: none;
+     font-weight: 500;
+     font-size: 1rem;
+     
 }
