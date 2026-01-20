@@ -87,6 +87,15 @@ img.hero-circle {
     right: 43%;
     z-index: 1;
 }
+.animation{
+    transition: width 10s linear 2s;
+}
+
+/* animation style related code */
+.animation:hover{
+    width: 200px;
+    background-color: #351165;
+}
 
 .btn1{
     margin-right: 8px;
@@ -454,6 +463,14 @@ padding: 30px;
     font-weight: 600;
     color: #FFFFFF;
     
+}
+.footer-icon{
+     grid-template-columns: repeat(2,1fr);
+   
+}
+.footer-icon {
+    padding-right:5px;
+   
 }
     
 }
