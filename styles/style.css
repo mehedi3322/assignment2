@@ -321,6 +321,43 @@ padding: 30px;
     height: 20px;
     padding: 10px;
 }
+/* footer related design */
+.footer-section{
+    max-width: 1600px;
+    height: 442px;
+    background-image: url("../assets/footer-bg.png");
+}
+.footer-container{
+    /* border: 3px solid tomato; */
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 120px;
+
+   
+}
+.footer-title{
+    font-size: 4rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.footer-icon{
+    max-width: 550px;
+    display: grid;
+    /* border: 3px solid purple; */
+    margin: 0 auto;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 30px;
+}
+.footer-icon img{
+    padding-right: 8px;
+}
+.footer-container p{
+    color: rgb(111, 108, 108);
+    font-size: 1rem;
+    font-weight: 500;
+}
 /* for mobile device */
 @media screen and (max-width:576px){
     .navbar,
