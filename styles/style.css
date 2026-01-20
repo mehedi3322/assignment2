@@ -299,7 +299,7 @@ padding: 30px;
 /* margin-bottom: 20px; */
 }
 .host-info{
-    width: 890px;
+    max-width: 890px;
     /* border: 3px solid indianred; */
 }
 .host-name{
@@ -393,6 +393,29 @@ padding: 30px;
     padding-bottom: 10px;
     width: 100%;
     margin: 0 auto;
+    
+}
+.alex{
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+.host-description{
+    width: 300px;
+    padding-left: 60px;
+}
+.host-container{
+    width: 100%;
+    /* border: 2px solid palevioletred; */
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.host-title{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #FFFFFF;
     
 }
     
